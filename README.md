@@ -2,7 +2,7 @@
 
 Kenji Lawrence, NIM 2802463440, kelas LB01.
 
-Repositori GitHub: https://github.com/FireClow/d6421-generative-fashion-mnist
+Repositori GitHub: https://github.com/FireClow/Assignment-DeepLearning-Generative-Models
 
 Laporan: `TUGAS_DL_SESI07_2802463440_KENJI_LAWRENCE.pdf`. Naskah yang dapat diedit ada di `laporan/laporan.md`.
 
