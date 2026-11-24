@@ -1,0 +1,22 @@
+# Stage 1 data contract. Later experiments must load split_path instead of
+# drawing a new permutation. Pixel tensors from the loader stay in [0, 1].
+dataset: fashion_mnist
+seed: 42
+batch_size: 128
+num_workers: 2
+data_root: data/raw
+split_path: data/splits/fashion_mnist_seed42.json
+train_ratio: 0.8
+val_ratio: 0.1
+test_ratio: 0.1
+image_height: 28
+image_width: 28
+channels: 1
+num_classes: 10
+pixel_min: 0.0
+pixel_max: 1.0
+
+# Locked for later stages. The Stage 1 loader does not read these values.
+latent_dim: 64
+sparse_lambda: 0.001
+noise_dim: 100

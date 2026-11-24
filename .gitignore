@@ -1,0 +1,60 @@
+# Local environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Raw dataset. The split index file under data/splits/ stays in Git.
+data/raw/
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# Large checkpoints stay local. Training history JSON is shared.
+outputs/checkpoints/
+outputs/logs/*
+!outputs/logs/*_history.json
+outputs/figures/*
+!outputs/figures/fashion_mnist_samples.png
+!outputs/figures/figure_01_reconstruction.png
+!outputs/figures/autoencoder_training_curves.png
+!outputs/figures/figure_02_generation.png
+!outputs/figures/gan_training_curves.png
+!outputs/figures/gan_training_progress.png
+!outputs/figures/figure_02_generation_gans.png
+!outputs/figures/figure_05_training_curves.png
+!outputs/figures/ddpm_denoising_trajectory.png
+!outputs/figures/figure_03_classifier_proof.png
+!outputs/figures/figure_03_classifier_proof_stage5.png
+!outputs/figures/figure_04_latent_interpolation.png
+!outputs/figures/classifier_training_curves.png
+!outputs/figures/classifier_weight_transpose.png
+!outputs/figures/classifier_latent_transpose.png
+!outputs/figures/frozen_latent_decoder_comparison.png
+!outputs/figures/mlp_random_prior_sampling.png
+outputs/metrics/*
+!outputs/metrics/autoencoder_comparison.csv
+!outputs/metrics/autoencoder_comparison.json
+!outputs/metrics/gan_comparison.csv
+!outputs/metrics/gan_comparison.json
+!outputs/metrics/ddpm_metrics.csv
+!outputs/metrics/ddpm_metrics.json
+!outputs/metrics/classifier_metrics.json
+!outputs/metrics/frozen_decoder_comparison.csv
+!outputs/metrics/frozen_decoder_metrics.json
+!outputs/metrics/model_comparison.csv
+!outputs/metrics/autoencoder_latency.json
+!outputs/metrics/latent_interpolation.json
+!outputs/metrics/latent_interpolation.pt
+
+# Course handout stays local. The student report PDF is added explicitly.
+/Tugas Take Home*.pdf
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.DS_Store
