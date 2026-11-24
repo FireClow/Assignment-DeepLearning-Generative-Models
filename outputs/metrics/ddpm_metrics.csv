@@ -1,0 +1,2 @@
+Model,Epochs,Best Epoch,Best Val Noise MSE,Test Noise MSE,Training Seconds,Parameters,Latency ms,Reverse Steps,FID
+ddpm,30,30,0.036459,0.035983,865.66,2640961,9542.6607,1000,N/A

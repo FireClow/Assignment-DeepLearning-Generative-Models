@@ -1,0 +1,212 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 27.52127161200042,
+    "train_noise_loss": 0.09110872511352812,
+    "val_noise_loss": 0.0553300261923245,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 2,
+    "seconds": 27.316255654999622,
+    "train_noise_loss": 0.05259809388858931,
+    "val_noise_loss": 0.04791927742958069,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 3,
+    "seconds": 27.387872769999376,
+    "train_noise_loss": 0.04686695191264152,
+    "val_noise_loss": 0.04486660524777004,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 4,
+    "seconds": 27.44947447499908,
+    "train_noise_loss": 0.04440981075593403,
+    "val_noise_loss": 0.04364321823631014,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 5,
+    "seconds": 27.311670285998844,
+    "train_noise_loss": 0.043246132952826366,
+    "val_noise_loss": 0.042171974816492624,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 6,
+    "seconds": 27.384059811998668,
+    "train_noise_loss": 0.042346987447568346,
+    "val_noise_loss": 0.04100060367584229,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 7,
+    "seconds": 27.433216983999955,
+    "train_noise_loss": 0.04107588003788676,
+    "val_noise_loss": 0.04036144498842103,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 8,
+    "seconds": 28.05448695099949,
+    "train_noise_loss": 0.041066353176321305,
+    "val_noise_loss": 0.039844197741576604,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 9,
+    "seconds": 28.378367560999322,
+    "train_noise_loss": 0.04010975455386298,
+    "val_noise_loss": 0.03954395607965333,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 10,
+    "seconds": 28.532062543999928,
+    "train_noise_loss": 0.04074020738261087,
+    "val_noise_loss": 0.03931994780898094,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 11,
+    "seconds": 28.729859089000456,
+    "train_noise_loss": 0.03929515093564987,
+    "val_noise_loss": 0.03877235391310283,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 12,
+    "seconds": 28.849473173999286,
+    "train_noise_loss": 0.03929933308490685,
+    "val_noise_loss": 0.03858906728880746,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 13,
+    "seconds": 28.92334510800174,
+    "train_noise_loss": 0.039288928738662174,
+    "val_noise_loss": 0.038299554543835775,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 14,
+    "seconds": 29.059699374000047,
+    "train_noise_loss": 0.03870972565242222,
+    "val_noise_loss": 0.03924113740665572,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 15,
+    "seconds": 29.078546470998845,
+    "train_noise_loss": 0.03834530818462372,
+    "val_noise_loss": 0.03789933085015842,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 16,
+    "seconds": 29.239311111999996,
+    "train_noise_loss": 0.0382729206425803,
+    "val_noise_loss": 0.03817096808126995,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 17,
+    "seconds": 29.256312399998933,
+    "train_noise_loss": 0.038191325243030275,
+    "val_noise_loss": 0.03744606855511665,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 18,
+    "seconds": 29.394838505000735,
+    "train_noise_loss": 0.03834249918375696,
+    "val_noise_loss": 0.03768478768638202,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 19,
+    "seconds": 29.503595041000153,
+    "train_noise_loss": 0.03737345917310034,
+    "val_noise_loss": 0.03724504612173353,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 20,
+    "seconds": 29.380874241998754,
+    "train_noise_loss": 0.03782527805651937,
+    "val_noise_loss": 0.03711531837071691,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 21,
+    "seconds": 29.51822599999832,
+    "train_noise_loss": 0.037524550093071804,
+    "val_noise_loss": 0.037122606439249854,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 22,
+    "seconds": 29.60038689999965,
+    "train_noise_loss": 0.03797149307812963,
+    "val_noise_loss": 0.0372444129543645,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 23,
+    "seconds": 29.58776204300011,
+    "train_noise_loss": 0.037317530338253295,
+    "val_noise_loss": 0.037373451994998114,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 24,
+    "seconds": 29.678490030999455,
+    "train_noise_loss": 0.037254147929804665,
+    "val_noise_loss": 0.036894803856100354,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 25,
+    "seconds": 29.679681214000084,
+    "train_noise_loss": 0.037471020123788286,
+    "val_noise_loss": 0.036722851561648506,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 26,
+    "seconds": 29.64023773900044,
+    "train_noise_loss": 0.03693609895663602,
+    "val_noise_loss": 0.037086228251457215,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 27,
+    "seconds": 29.733947565999188,
+    "train_noise_loss": 0.03707528793811798,
+    "val_noise_loss": 0.03653230732679367,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 28,
+    "seconds": 29.71469022400015,
+    "train_noise_loss": 0.036435513875314164,
+    "val_noise_loss": 0.03677946881737028,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 29,
+    "seconds": 29.714717393999308,
+    "train_noise_loss": 0.036387871482542584,
+    "val_noise_loss": 0.03679435018982206,
+    "learning_rate": 0.0002
+  },
+  {
+    "epoch": 30,
+    "seconds": 29.688478830999884,
+    "train_noise_loss": 0.03654441631266049,
+    "val_noise_loss": 0.03645908448525838,
+    "learning_rate": 0.0002
+  }
+]
