@@ -12,7 +12,7 @@ Dataset: Fashion-MNIST
 
 Random seed: 42
 
-Repositori GitHub: BELUM TERSEDIA — MENUNGGU REPOSITORY PUBLIK
+Repositori GitHub: https://github.com/FireClow/d6421-generative-fashion-mnist
 
 Naskah ini adalah sumber yang dapat diedit. PDF paginasi dihasilkan oleh `laporan/build_pdf.py`.
 

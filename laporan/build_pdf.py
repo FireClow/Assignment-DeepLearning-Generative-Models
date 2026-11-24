@@ -136,7 +136,7 @@ def build() -> None:
         "Mata kuliah: Deep Learning (D6421)\n"
         "Dataset: Fashion-MNIST\n"
         "Random seed: 42\n"
-        "Repositori GitHub: BELUM TERSEDIA — MENUNGGU REPOSITORY PUBLIK"
+        "Repositori GitHub: https://github.com/FireClow/d6421-generative-fashion-mnist"
     )
     pdf.h2("Abstrak")
     pdf.body(
