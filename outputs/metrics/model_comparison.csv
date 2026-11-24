@@ -1,0 +1,7 @@
+Model,Latent Dimension,Training Time Seconds,Seconds per Epoch,Latency ms Batch 64,Reconstruction MSE,PSNR,SSIM,FID,Training Stability
+Vanilla AE,64,117.84,3.91,0.1044,0.00868499,21.65923977,0.78396062,N/A,Val loss still best at epoch 30 of 30. No early stop and no non-finite loss. Convergence was not reached.
+Sparse AE,64,118.97,3.95,0.1089,0.00986527,21.04700809,0.76079118,N/A,Val loss still best at epoch 30 of 30. No early stop and no non-finite loss. Convergence was not reached.
+VAE,64,127.77,4.24,0.1179,0.01577550,18.73335882,0.68281512,N/A,Val ELBO still best at epoch 30 of 30. ELBO is not comparable to AE MSE. Convergence was not reached.
+Vanilla GAN,100,109.41,2.15,0.1439,N/A,N/A,N/A,N/A,50 epochs completed. Final D loss 1.380 near 2*ln(2). No stability flags and samples stay diverse. Convergence was not claimed.
+DCGAN,100,169.13,3.35,1.4705,N/A,N/A,N/A,N/A,50 epochs completed. Discriminator accuracy stays near 0.77. No NaN and samples stay diverse. Convergence was not claimed.
+DDPM,28x28 image space,865.66,28.82,9542.6607,N/A,N/A,N/A,N/A,Val noise-prediction MSE still best at epoch 30 of 30. Test noise MSE 0.035983 is not reconstruction MSE. Convergence was not reached.

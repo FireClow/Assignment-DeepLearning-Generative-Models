@@ -1,0 +1,47 @@
+{
+  "formula": "z(alpha) = (1 - alpha) * z_A + alpha * z_B",
+  "alphas": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "seed": 42,
+  "autoencoder_endpoints": {
+    "test_position_a": 0,
+    "test_position_b": 1,
+    "pooled_index_a": 29848,
+    "pooled_index_b": 11863,
+    "label_a": 3,
+    "label_b": 0,
+    "class_a": "Dress",
+    "class_b": "T-shirt/top",
+    "shared_by": [
+      "vanilla_ae",
+      "sparse_ae",
+      "vae"
+    ],
+    "vae_latent": "posterior mean mu, not a reparameterized sample"
+  },
+  "gan_endpoints": {
+    "space": "training noise prior N(0, I), dimension 100, not an encoder latent",
+    "seed": 42,
+    "shared_by": [
+      "vanilla_gan",
+      "dcgan"
+    ]
+  },
+  "pixel_range": "[0, 1]",
+  "gan_display": "(tanh + 1) / 2, clamped to [0, 1]",
+  "models": [
+    "vanilla_ae",
+    "sparse_ae",
+    "vae",
+    "vanilla_gan",
+    "dcgan"
+  ],
+  "figure": "outputs/figures/figure_04_latent_interpolation.png",
+  "weights_updated": false
+}

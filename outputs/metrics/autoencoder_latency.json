@@ -1,0 +1,40 @@
+{
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "batch_size": 64,
+  "warmup": 10,
+  "iterations": 100,
+  "std_estimator": "sample standard deviation of the iteration times",
+  "timed_region": "model forward only; data loading and checkpoint loading are excluded",
+  "vae_method": "encode to posterior mean mu, then decode. Reparameterization sampling is not included.",
+  "ae_method": "encoder plus decoder through the model forward",
+  "models": {
+    "Vanilla AE": {
+      "mean_seconds": 0.00010442906994285295,
+      "median_seconds": 0.0001026384998112917,
+      "std_seconds": 7.890057122309342e-06,
+      "mean_milliseconds": 0.10442906994285295,
+      "median_milliseconds": 0.1026384998112917,
+      "std_milliseconds": 0.007890057122309342,
+      "milliseconds_per_image": 0.0016317042178570773
+    },
+    "Sparse AE": {
+      "mean_seconds": 0.00010891666988754878,
+      "median_seconds": 0.00010805100009747548,
+      "std_seconds": 2.6983437448103606e-06,
+      "mean_milliseconds": 0.10891666988754878,
+      "median_milliseconds": 0.10805100009747548,
+      "std_milliseconds": 0.0026983437448103607,
+      "milliseconds_per_image": 0.0017018229669929497
+    },
+    "VAE": {
+      "mean_seconds": 0.00011788582005465287,
+      "median_seconds": 0.00011703300060617039,
+      "std_seconds": 2.395857661893603e-06,
+      "mean_milliseconds": 0.11788582005465287,
+      "median_milliseconds": 0.11703300060617039,
+      "std_milliseconds": 0.0023958576618936032,
+      "milliseconds_per_image": 0.001841965938353951
+    }
+  }
+}
