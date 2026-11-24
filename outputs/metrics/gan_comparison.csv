@@ -1,0 +1,3 @@
+Model,Latent Dim,Epochs,Training Seconds,Final Generator Loss,Final Discriminator Loss,Final Real Accuracy,Final Fake Accuracy,Latency ms,Generator Params,Discriminator Params,FID
+vanilla_gan,100,50,109.41,0.716552,1.380350,0.495982,0.560607,0.1439,1489424,533505,unavailable
+dcgan,100,50,169.13,1.330166,0.967384,0.770446,0.775107,1.4705,759680,138625,unavailable
